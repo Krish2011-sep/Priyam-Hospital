@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyam Hospital | Eye & Maternity Hospital in Dabha, Nagpur</title>
+    <meta name="description" content="Priyam Eye & Maternity Hospital, Dabha, Nagpur — Advanced Eye Care, Maternity Care, Obstetrics & Gynaecology, Infertility Treatment. Book an appointment today.">
+    <meta name="keywords" content="Priyam Hospital Dabha Nagpur, Priyam Eye & Maternity Hospital, eye hospital in Dabha, maternity hospital in Dabha, eye care in Nagpur, infertility treatment Dabha Nagpur, cataract surgery Nagpur, gynaecologist Dabha Nagpur">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://priyamhospital.com">
+    <meta property="og:title" content="Priyam Hospital | Eye & Maternity Hospital, Dabha, Nagpur">
+    <meta property="og:description" content="Advanced Eye Care and Dedicated Maternity & Women's Healthcare in Dabha, Nagpur.">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: { 50:'#f0f4f8', 100:'#d9e2ec', 200:'#bcccdc', 300:'#9fb3c8', 400:'#829ab1', 500:'#627d98', 600:'#486581', 700:'#334e68', 800:'#243b53', 900:'#102a43' },
+                        teal: { 50:'#f0fdfa', 100:'#ccfbf1', 200:'#99f6e4', 300:'#5eead4', 400:'#2dd4bf', 500:'#14b8a6', 600:'#0d9488', 700:'#0f766e', 800:'#115e59', 900:'#134e4a' },
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                        manrope: ['Manrope', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background: #ffffff; color: #243b53; }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f0f4f8; }
+        ::-webkit-scrollbar-thumb { background: #627d98; border-radius: 3px; }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-40px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(40px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes pulse-soft {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(13, 148, 136, 0.3); }
+            50% { box-shadow: 0 0 0 8px rgba(13, 148, 136, 0); }
+        }
+        .animate-fadeInUp { animation: fadeInUp 0.7s ease forwards; }
+        .animate-fadeIn { animation: fadeIn 0.6s ease forwards; }
+        .animate-slideInLeft { animation: slideInLeft 0.7s ease forwards; }
+        .animate-slideInRight { animation: slideInRight 0.7s ease forwards; }
+
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-left { opacity: 0; transform: translateX(-40px); transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
+        .reveal-left.visible { opacity: 1; transform: translateX(0); }
+        .reveal-right { opacity: 0; transform: translateX(40px); transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
+        .reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+        /* Hero gradient overlay */
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(16,42,67,0.92) 0%, rgba(36,59,83,0.85) 40%, rgba(13,148,136,0.7) 100%);
+        }
+
+        /* Subtle pattern */
+        .pattern-dots {
+            background-image: radial-gradient(circle, #d9e2ec 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+
+        /* Section divider */
+        .section-divider {
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #0d9488, transparent);
+            max-width: 60px;
+            margin: 0 auto;
+        }
+
+        /* Card hover */
+        .service-card {
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+        }
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(16,42,67,0.1);
+            border-color: #0d9488;
+        }
+
+        /* Doctor card */
+        .doctor-card {
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+        }
+        .doctor-card:hover {
+            box-shadow: 0 16px 48px rgba(16,42,67,0.12);
+        }
+
+        /* CTA pulse */
+        .cta-pulse { animation: pulse-soft 2.5s infinite; }
+
+        /* Mobile menu */
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .mobile-menu.open { transform: translateX(0); }
+
+        /* FAQ */
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+        }
+        .faq-item.active .faq-answer { max-height: 300px; padding-top: 12px; }
+        .faq-item.active .faq-icon { transform: rotate(45deg); }
+        .faq-icon { transition: transform 0.3s ease; }
+
+        /* Toast */
+        .toast {
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.4s ease;
+        }
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Sticky header shadow */
+        .header-scrolled {
+            box-shadow: 0 2px 20px rgba(16,42,67,0.08);
+            background: rgba(255,255,255,0.98) !important;
+        }
+
+        /* Floating label */
+        .form-group input:focus + label,
+        .form-group input:not(:placeholder-shown) + label,
+        .form-group select:focus + label,
+        .form-group select:not([value=""]) + label,
+        .form-group textarea:focus + label,
+        .form-group textarea:not(:placeholder-shown) + label {
+            transform: translateY(-24px) scale(0.85);
+            color: #0d9488;
+        }
+
+        /* Specialty icon circle */
+        .spec-icon {
+            width: 56px; height: 56px;
+            display: flex; align-items: center; justify-content: center;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #f0fdfa, #ccfbf1);
+            color: #0d9488;
+            flex-shrink: 0;
+        }
+
+        /* Google Maps container */
+        .map-container {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid #e2e8f0;
+        }
+
+        @media (max-width: 768px) {
+            .hero-headline { font-size: 2.2rem !important; line-height: 1.15 !important; }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast fixed bottom-6 right-6 z-[100] bg-navy-900 text-white px-6 py-4 rounded-lg shadow-2xl flex items-center gap-3 max-w-sm">
+        <svg class="w-5 h-5 text-teal-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span id="toastMessage" class="text-sm font-medium"></span>
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-[72px]">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3 flex-shrink-0">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-navy-800 to-teal-600 flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.684l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                    </div>
+                    <div class="leading-tight">
+                        <span class="font-manrope font-bold text-navy-900 text-[15px] block">Priyam Hospital</span>
+                        <span class="text-teal-600 text-[11px] font-medium tracking-wide">Eye & Maternity Care</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden lg:flex items-center gap-1">
+                    <a href="#home" class="px-3 py-2 text-sm font-medium text-navy-700 hover:text-teal-600 transition-colors rounded-md hover:bg-teal-50/50">Home</a>
+                    <a href="#about" class="px-3 py-2 text-sm font-medium text-navy-700 hover:text-teal-600 transition-colors rounded-md hover:bg-teal-50/50">About</a>
+                    <a href="#specialities" class="px-3 py-2 text-sm font-medium text-navy-700 hover:text-teal-600 transition-colors rounded-md hover:bg-teal-50/50">Specialities</a>
+                    <a href="#doctors" class="px-3 py-2 text-sm font-medium text-navy-700 hover:text-teal-600 transition-colors rounded-md hover:bg-teal-50/50">Doctors</a>
+                    <a href="#services" class="px-3 py-2 text-sm font-medium text-navy-700 hover:text-teal-600 transition-colors rounded-md hover:bg-teal-50/50">Services</a>
+                    <a href="#contact" class="px-3 py-2 text-sm font-medium text-navy-700 hover:text-teal-600 transition-colors rounded-md hover:bg-teal-50/50">Contact</a>
+                </nav>
+
+                <!-- Desktop CTA -->
+                <div class="hidden lg:flex items-center gap-3">
+                    <a href="tel:+919860059838" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold text-teal-700 border border-teal-200 rounded-lg hover:bg-teal-50 transition-all">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                        Call Now
+                    </a>
+                    <a href="#appointment" class="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-navy-800 rounded-lg hover:bg-navy-900 transition-all shadow-md hover:shadow-lg">
+                        Book Appointment
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="lg:hidden p-2 rounded-lg hover:bg-navy-50 transition-colors" aria-label="Open menu">
+                    <svg class="w-6 h-6 text-navy-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-[300px] h-full bg-white shadow-2xl z-50 overflow-y-auto">
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-8">
+                    <span class="font-manrope font-bold text-navy-900">Menu</span>
+                    <button id="closeMenuBtn" class="p-2 rounded-lg hover:bg-navy-50 transition-colors" aria-label="Close menu">
+                        <svg class="w-5 h-5 text-navy-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                    </button>
+                </div>
+                <nav class="flex flex-col gap-1">
+                    <a href="#home" class="mobile-link px-4 py-3 text-base font-medium text-navy-700 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">Home</a>
+                    <a href="#about" class="mobile-link px-4 py-3 text-base font-medium text-navy-700 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">About</a>
+                    <a href="#specialities" class="mobile-link px-4 py-3 text-base font-medium text-navy-700 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">Special/Specialities</a>
+                    <a href="#doctors" class="mobile-link px-4 py-3 text-base font-medium text-navy-700 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">Doctors</a>
+                    <a href="#services" class="mobile-link px-4 py-3 text-base font-medium text-navy-700 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">Services</a>
+                    <a href="#contact" class="mobile-link px-4 py-3 text-base font-medium text-navy-700 hover:text-teal-600 hover:bg-teal-50 rounded-lg transition-colors">Contact</a>
+                </nav>
+                <div class="mt-8 flex flex-col gap-3">
+                    <a href="tel:+919860059838" class="flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-teal-700 border border-teal-200 rounded-lg hover:bg-teal-50 transition-all">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                        Call +91 98600 59838
+                    </a>
+                    <a href="#appointment" class="mobile-link flex items-center justify-center gap-2 px-5 py-3 text-sm font-semibold text-white bg-navy-800 rounded-lg hover:bg-navy-900 transition-all">
+                        Book Appointment
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="menuOverlay" class="fixed inset-0 bg-navy-900/30 z-40 hidden"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-[92vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1519498125-1a5e0c6f1932?w=1600&q=80" alt="Priyam Hospital Dabha Nagpur" class="w-full h-full object-cover" loading="eager">
+            <div class="hero-overlay absolute inset-0"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur-sm rounded-full mb-6 animate-fadeIn" style="animation-delay:0.2s">
+                    <span class="w-2 h-2 rounded-full bg-teal-400"></span>
+                    <span class="text-teal-200 text-sm font-medium">Trusted Healthcare in Dabha, Nagpur</span>
+                </div>
+                <h1 class="hero-headline font-manrope font-extrabold text-white text-5xl md:text-6xl leading-[1.1] mb-6 animate-fadeInUp" style="animation-delay:0.3s">
+                    Specialized Care.<br>Compassionate Healing.
+                </h1>
+                <p class="text-lg md:text-xl text-navy-200 leading-relaxed mb-10 max-w-xl animate-fadeInUp" style="animation-delay:0.5s">
+                    Advanced Eye Care and Dedicated Maternity & Women's Healthcare in Dabha, Nagpur.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 animate-fadeInUp" style="animation-delay:0.7s">
+                    <a href="#appointment" class="cta-pulse inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-navy-900 bg-teal-400 rounded-lg hover:bg-teal-300 transition-all shadow-lg hover:shadow-xl">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        Book an Appointment
+                    </a>
+                    <a href="tel:+919860059838" class="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-white border-2 border-white/30 rounded-lg hover:border-white hover:bg-white/10 transition-all">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                        Call +91 98600 59838
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+            <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+        </div>
+    </section>
+
+    <!-- Quick Info Bar -->
+    <section class="bg-navy-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+                <div class="flex items-center gap-6">
+                    <div class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <span class="text-navy-200">Dabha, Nagpur</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-4 h-4 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                        <a href="tel:+919860059838" class="text-navy-200 hover:text-teal-400 transition-colors">+91 98600 59838</a>
+                    </div>
+                </div>
+                <div class="flex items-center gap-2 text-teal-300 font-medium">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    Eye Care & Maternity Services
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="reveal-left">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1631815524235-79cd4c593b47?w=700&q=80" alt="Priyam Hospital facility" class="rounded-xl w-full h-[420px] object-cover shadow-lg" loading="lazy">
+                        <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-teal-50 rounded-xl -z-10"></div>
+                        <div class="absolute -top-4 -left-4 bg-navy-800 text-white px-5 py-3 rounded-lg shadow-lg">
+                            <div class="font-manrope font-bold text-lg">Dabha</div>
+                            <div class="text-teal-300 text-xs">Nagpur</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal-right">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm font-medium mb-4">
+                        About Us
+                    </div>
+                    <h2 class="font-manrope font-bold text-3xl md:text-4xl text-navy-900 mb-6 leading-tight">
+                        Patient-Focused Healthcare You Can Trust
+                    </h2>
+                    <div class="section-divider mb-8" style="margin:0 0 2rem 0;"></div>
+                    <p class="text-navy-600 leading-relaxed mb-5">
+                        Priyam Hospital, located on Katol Bypass Road in Dabha, Nagpur, is a dedicated healthcare facility providing specialized medical services in two critical areas — <strong class="text-navy-800">Advanced Eye Care</strong> and <strong class="text-navy-800">Maternity & Women's Healthcare</strong>.
+                    </p>
+                    <p class="text-navy-600 leading-relaxed mb-5">
+                        Known online as <strong class="text-navy-800">Priyam Eye & Maternity Hospital</strong>, we are committed to delivering compassionate, evidence-based care in a clean and comfortable environment. Our focus is on the individual patient — ensuring every visit is met with attention, respect, and quality treatment.
+                    </p>
+                    <p class="text-navy-600 leading-relaxed mb-8">
+                        Conveniently situated near White House and Galaxy Hospital on Katol Bypass Road, we serve families across Dabha and greater Nagpur with accessible, specialized healthcare.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#specialities" class="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-white bg-navy-800 rounded-lg hover:bg-navy-900 transition-all">
+                            Our Specialities
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </a>
+                        <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-navy-700 border border-navy-200 rounded-lg hover:border-teal-300 hover:text-teal-700 transition-all">
+                            Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialities Section -->
+    <section id="specialities" class="py-20 md:py-28 bg-navy-50/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm font-medium mb-4">
+                    Our Specialities
+                </div>
+                <h2 class="font-manrope font-bold text-3xl md:text-4xl text-navy-900 mb-4">
+                    Centers of Excellence
+                </h2>
+                <p class="text-navy-500 max-w-2xl mx-auto">
+                    Focused expertise in two vital areas of healthcare — advanced eye treatments and comprehensive maternity & women's health services.
+                </p>
+            </div>
+
+            <!-- Eye Care -->
+            <div class="grid lg:grid-cols-2 gap-8 mb-8">
+                <div class="reveal-left bg-white rounded-xl overflow-hidden shadow-sm border border-navy-100/50">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1577409306539-5e1e0f3b8b8b?w=800&q=80" alt="Advanced Eye Care at Priyam Hospital" class="w-full h-full object-cover" loading="lazy">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+                        <div class="absolute bottom-5 left-6">
+                            <div class="flex items-center gap-2 mb-1">
+                                <svg class="w-5 h-5 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                                <span class="text-teal-300 text-sm font-medium">Speciality</span>
+                            </div>
+                            <h3 class="font-manrope font-bold text-2xl text-white">Advanced Eye Care</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-navy-600 text-sm mb-6">Comprehensive eye care services using modern diagnostic and treatment approaches for a range of vision conditions.</p>
+                        <div class="space-y-3">
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Cataract Care</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Glaucoma Care</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0A8.003 8.003 0 0113.919 3m0 0H9"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Retina Care</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Squint Care</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Eye Consultation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maternity & Women's Healthcare -->
+                <div class="reveal-right bg-white rounded-xl overflow-hidden shadow-sm border border-navy-100/50">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1559757210-7d00f4c6db9c?w=800&q=80" alt="Maternity Care at Priyam Hospital" class="w-full h-full object-cover" loading="lazy">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/80 to-transparent"></div>
+                        <div class="absolute bottom-5 left-6">
+                            <div class="flex items-center gap-2 mb-1">
+                                <svg class="w-5 h-5 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.684l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                                <span class="text-teal-300 text-sm font-medium">Speciality</span>
+                            </div>
+                            <h3 class="font-manrope font-bold text-2xl text-white">Maternity & Women's Healthcare</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-navy-600 text-sm mb-6">Compassionate and complete maternity care alongside specialized women's health services — from antenatal to delivery and beyond.</p>
+                        <div class="space-y-3">
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.684l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Antenatal Care</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Maternity Care</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Infertility Treatment</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Family Planning</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Normal Delivery</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-3 rounded-lg bg-navy-50/60 hover:bg-teal-50/50 transition-colors">
+                                <div class="spec-icon !w-10 !h-10 !rounded-lg">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                                </div>
+                                <span class="font-medium text-navy-800">Caesarean Delivery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm font-medium mb-4">
+                    Our Doctors
+                </div>
+                <h2 class="font-manrope font-bold text-3xl md:text-4xl text-navy-900 mb-4">
+                    Meet Our Specialists
+                </h2>
+                <p class="text-navy-500 max-w-2xl mx-auto">
+                    Experienced and compassionate doctors dedicated to providing the best possible care.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Dr. Amar Bhaskare -->
+                <div class="doctor-card bg-white rounded-xl overflow-hidden reveal">
+                    <div class="p-8">
+                        <div class="flex items-start gap-5">
+                            <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-navy-100 to-teal-50 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-10 h-10 text-navy-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="font-manrope font-bold text-xl text-navy-900">Dr. Amar Bhaskare</h3>
+                                <p class="text-teal-600 text-sm font-medium mt-1">[Speciality — Editable]</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 space-y-3 text-sm">
+                            <div class="flex items-start gap-3">
+                                <svg class="w-4 h-4 text-navy-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                                <span class="text-navy-600"><strong class="text-navy-800">Qualifications:</strong> [Add qualifications — Editable]</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <svg class="w-4 h-4 text-navy-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                                <span class="text-navy-600"><strong class="text-navy-800">Experience:</strong> [Add experience — Editable]</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <svg class="w-4 h-4 text-navy-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                                <span class="text-navy-600"><strong class="text-navy-800">Timings:</strong> [Add timings — Editable]</span>
+                            </div>
+                        </div>
+                        <a href="#appointment" class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-teal-600 hover:text-teal-700 transition-colors">
+                            Book Appointment
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Dr. Priyanka Bhaskare -->
+                <div class="doctor-card bg-white rounded-xl overflow-hidden reveal" style="transition-delay:0.1s">
+                    <div class="p-8">
+                        <div class="flex items-start gap-5">
+                            <div class="w-20 h-20 rounded-xl bg-gradient-to-br from-teal-50 to-navy-100 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-10 h-10 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="font-manrope font-bold text-xl text-navy-900">Dr. Priyanka Bhaskare</h3>
+                                <p class="text-teal-600 text-sm font-medium mt-1">[Speciality — Editable]</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 space-y-3 text-sm">
+                            <div class="flex items-start gap-3">
+                                <svg class="w-4 h-4 text-navy-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                                <span class="text-navy-600"><strong class="text-navy-800">Qualifications:</strong> [Add qualifications — Editable]</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <svg class="w-4 h-4 text-navy-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                                <span class="text-navy-600"><strong class="text-navy-800">Experience:</strong> [Add experience — Editable]</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <svg class="w-4 h-4 text-navy-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                                <span class="text-navy-600"><strong class="text-navy-800">Timings:</strong> [Add timings — Editable]</span>
+                            </div>
+                        </div>
+                        <a href="#appointment" class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-teal-600 hover:text-teal-700 transition-colors">
+                            Book Appointment
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services/Why Choose Us -->
+    <section id="services" class="py-20 md:py-28 bg-navy-50/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm font-medium mb-4">
+                    Why Choose Us
+                </div>
+                <h2 class="font-manrope font-bold text-3xl md:text-4xl text-navy-900 mb-4">
+                    Why Families Choose Priyam Hospital
+                </h2>
+                <p class="text-navy-500 max-w-2xl mx-auto">
+                    We focus on what matters most — the patient's well-being, comfort, and recovery.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="service-card bg-white rounded-xl p-7 reveal" style="transition-delay:0s">
+                    <div class="w-12 h-12 rounded-lg bg-navy-800 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.684l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                    </div>
+                    <h3 class="font-manrope font-bold text-lg text-navy-900 mb-2">Patient-Focused Care</h3>
+                    <p class="text-navy-500 text-sm leading-relaxed">Every treatment plan is centered on the individual needs and comfort of the patient.</p>
+                </div>
+                <div class="service-card bg-white rounded-xl p-7 reveal" style="transition-delay:0.1s">
+                    <div class="w-12 h-12 rounded-lg bg-navy-800 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    </div>
+                    <h3 class="font-manrope font-bold text-lg text-navy-900 mb-2">Specialized Services</h3>
+                    <p class="text-navy-500 text-sm leading-relaxed">Dedicated expertise in eye care and maternity, ensuring focused and quality treatment.</p>
+                </div>
+                <div class="service-card bg-white rounded-xl p-7 reveal" style="transition-delay:0.2s">
+                    <div class="w-12 h-12 rounded-lg bg-navy-800 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                    </div>
+                    <h3 class="font-manrope font-bold text-lg text-navy-900 mb-2">Compassionate Approach</h3>
+                    <p class="text-navy-500 text-sm leading-relaxed">Warm, respectful, and empathetic care that makes every patient feel valued and supported.</p>
+                </div>
+                <div class="service-card bg-white rounded-xl p-7 reveal" style="transition-delay:0.3s">
+                    <div class="w-12 h-12 rounded-lg bg-navy-800 flex items-center justify-center mb-5">
+                        <svg class="w-6 h-6 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <h3 class="font-manrope font-bold text-lg text-navy-900 mb-2">Convenient Location</h3>
+                    <p class="text-navy-500 text-sm leading-relaxed">Easily accessible on Katol Bypass Road, Dabha — serving the greater Nagpur area.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-5 gap-12">
+                <div class="lg:col-span-2 reveal-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm font-medium mb-4">
+                        Book an Appointment
+                    </div>
+                    <h2 class="font-manrope font-bold text-3xl md:text-4xl text-navy-900 mb-4 leading-tight">
+                        Request an Appointment
+                    </h2>
+                    <p class="text-navy-500 mb-8">
+                        Fill in the form and our team will get back to you to confirm your appointment.
+                    </p>
+
+                    <div class="space-y-5">
+                        <div class="flex items-center gap-4 p-4 bg-navy-50/60 rounded-lg">
+                            <div class="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                            </div>
+                            <div>
+                                <div class="text-sm font-semibold text-navy-800">Call Us Directly</div>
+                                <a href="tel:+919860059838" class="text-teal-600 text-sm hover:text-teal-700 transition-colors">+91 98600 59838</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-navy-50/60 rounded-lg">
+                            <div class="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            </div>
+                            <div>
+                                <div class="text-sm font-semibold text-navy-800">Visit Us</div>
+                                <span class="text-navy-600 text-sm">Dabha, Nagpur</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-3 reveal-right">
+                    <form id="appointmentForm" class="bg-navy-50/40 rounded-xl p-8 border border-navy-100/50">
+                        <div class="grid sm:grid-cols-2 gap-5 mb-5">
+                            <div>
+                                <label class="block text-sm font-medium text-navy-700 mb-1.5">Full Name <span class="text-red-400">*</span></label>
+                                <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-navy-200 bg-white text-navy-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/30 focus:border-teal-500 transition-all" placeholder="Your full name">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-navy-700 mb-1.5">Phone Number <span class="text-red-400">*</span></label>
+                                <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-navy-200 bg-white text-navy-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/30 focus:border-teal-500 transition-all" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                        </div>
+                        <div class="grid sm:grid-cols-2 gap-5 mb-5">
+                            <div>
+                                <label class="block text-sm font-medium text-navy-700 mb-1.5">Department <span class="text-red-400">*</span></label>
+                                <select name="department" required class="w-full px-4 py-3 rounded-lg border border-navy-200 bg-white text-navy-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/30 focus:border-teal-500 transition-all appearance-none">
+                                    <option value="">Select department</option>
+                                    <option value="eye">Eye Care</option>
+                                    <option value="maternity">Maternity Care</option>
+                                    <option value="obgyn">Obstetrics & Gynaecology</option>
+                                    <option value="infertility">Infertility Care</option>
+                                    <option value="general">General Consultation</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-navy-700 mb-1.5">Preferred Date</label>
+                                <input type="date" name="date" class="w-full px-4 py-3 rounded-lg border border-navy-200 bg-white text-navy-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/30 focus:border-teal-500 transition-all">
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <label class="block text-sm font-medium text-navy-700 mb-1.5">Preferred Time</label>
+                            <input type="text" name="time" class="w-full px-4 py-3 rounded-lg border border-navy-200 bg-white text-navy-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/30 focus:border-teal-500 transition-all" placeholder="e.g. Morning, 10:00 AM">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium text-navy-700 mb-1.5">Message</label>
+                            <textarea name="message" rows="3" class="w-full px-4 py-3 rounded-lg border border-navy-200 bg-white text-navy-800 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/30 focus:border-teal-500 transition-all resize-none" placeholder="Briefly describe your concern..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full sm:w-auto px-8 py-3.5 text-sm font-semibold text-white bg-navy-800 rounded-lg hover:bg-navy-900 transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            Request Appointment
+                        </button>
+                        <p class="text-navy-400 text-xs mt-3">We will call you back to confirm your appointment.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 md:py-28 bg-navy-50/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm font-medium mb-4">
+                    Contact Us
+                </div>
+                <h2 class="font-manrope font-bold text-3xl md:text-4xl text-navy-900 mb-4">
+                    Find Us in Dabha, Nagpur
+                </h2>
+                <p class="text-navy-500 max-w-2xl mx-auto">
+                    We're conveniently located on Katol Bypass Road, near White House and Galaxy Hospital.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-5 gap-8">
+                <div class="lg:col-span-2 space-y-5 reveal-left">
+                    <div class="bg-white rounded-xl p-6 border border-navy-100/50">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-navy-800 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-navy-900 text-sm mb-1">Address</h3>
+                                <p class="text-navy-600 text-sm leading-relaxed">Plot 1, Thakre Layout, Katol Bypass Road, near White House and Galaxy Hospital, Dabha, Nagpur, Maharashtra 440023, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 border border-navy-100/50">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-navy-800 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-navy-900 text-sm mb-1">Phone</h3>
+                                <a href="tel:+919860059838" class="text-teal-600 text-sm font-medium hover:text-teal-700 transition-colors">+91 98600 59838</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Priyam+Hospital+Dabha+Nagpur+Katol+Bypass+Road" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-semibold text-white bg-teal-600 rounded-lg hover:bg-teal-700 transition-all shadow-md w-full">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-4.542a1 1 0 010-1.416L9 10m6 10l5.447-4.542a1 1 0 010-1.416L15 10m-6 10V4m6 16V4"/></svg>
+                        Get Directions
+                    </a>
+                </div>
+
+                <div class="lg:col-span-3 reveal-right">
+                    <div class="map-container bg-navy-100 h-[360px] lg:h-full min-h-[320px]">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.5!2d79.0!3d21.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPriyam+Hospital+Dabha+Nagpur!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Priyam Hospital Location on Google Maps"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 reveal">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm font-medium mb-4">
+                    Patient Reviews
+                </div>
+                <h2 class="font-manrope font-bold text-3xl md:text-4xl text-navy-900 mb-4">
+                    What Our Patients Say
+                </h2>
+                <p class="text-navy-500 max-w-2xl mx-auto mb-6">
+                    We value genuine feedback. Reviews are sourced from our Google listing.
+                </p>
+                <a href="https://www.google.com/maps/search/Priyam+Hospital+Dabha+Nagpur" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-navy-700 border border-navy-200 rounded-lg hover:border-teal-300 hover:text-teal-700 transition-all">
+                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    View Reviews on Google
+                </a>
+            </div>
+
+            <div class="text-center py-12 bg-navy-50/40 rounded-xl border border-navy-100/50 reveal">
+                <svg class="w-12 h-12 text-navy-200 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-1.114l-3.68 1.107 1.107-3.68A9.863 9.863 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+                <p class="text-navy-500 text-sm">Google reviews will appear here once the Google Business profile is linked.</p>
+                <p class="text-navy-400 text-xs mt-2">We only display authentic, verified patient reviews.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-28 bg-navy-50/50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 reveal">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm font-medium mb-4">
+                    FAQ
+                </div>
+                <h2 class="font-manrope font-bold text-3xl md:text-4xl text-navy-900 mb-4">
+                    Frequently Asked Questions
+                </h2>
+            </div>
+
+            <div class="space-y-3 reveal">
+                <div class="faq-item bg-white rounded-lg border border-navy-100/50 overflow-hidden">
+                    <button class="faq-toggle w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
+                        <span class="font-medium text-navy-800 text-sm pr-4">What services does Priyam Hospital provide?</span>
+                        <span class="faq-icon text-navy-400 flex-shrink-0 text-xl leading-none">+</span>
+                    </button>
+                    <div class="faq-answer px-5 pb-5">
+                        <p class="text-navy-600 text-sm leading-relaxed">Priyam Hospital specializes in Advanced Eye Care (including cataract, glaucoma, retina, and squint care) and Maternity & Women's Healthcare (including antenatal care, maternity care, infertility treatment, family planning, normal delivery, and caesarean delivery).</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-white rounded-lg border border-navy-100/50 overflow-hidden">
+                    <button class="faq-toggle w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
+                        <span class="font-medium text-navy-800 text-sm pr-4">How can I book an appointment?</span>
+                        <span class="faq-icon text-navy-400 flex-shrink-0 text-xl leading-none">+</span>
+                    </button>
+                    <div class="faq-answer px-5 pb-5">
+                        <p class="text-navy-600 text-sm leading-relaxed">You can book an appointment by calling us at +91 98600 59838, or by filling out the appointment request form on this website. Our team will call you back to confirm.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-white rounded-lg border border-navy-100/50 overflow-hidden">
+                    <button class="faq-toggle w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
+                        <span class="font-medium text-navy-800 text-sm pr-4">Where is Priyam Hospital located?</span>
+                        <span class="faq-icon text-navy-400 flex-shrink-0 text-xl leading-none">+</span>
+                    </button>
+                    <div class="faq-answer px-5 pb-5">
+                        <p class="text-navy-600 text-sm leading-relaxed">Priyam Hospital is located at Plot 1, Thakre Layout, Katol Bypass Road, near White House and Galaxy Hospital, Dabha, Nagpur, Maharashtra 440023, India. You can use the "Get Directions" button on our website to navigate via Google Maps.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-white rounded-lg border border-navy-100/50 overflow-hidden">
+                    <button class="faq-toggle w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
+                        <span class="font-medium text-navy-800 text-sm pr-4">What eye care treatments are available?</span>
+                        <span class="faq-icon text-navy-400 flex-shrink-0 text-xl leading-none">+</span>
+                    </button>
+                    <div class="faq-answer px-5 pb-5">
+                        <p class="text-navy-600 text-sm leading-relaxed">Our eye care services include cataract care, glaucoma care, retina care, squint care, and general eye consultations. Please contact us for specific treatment inquiries.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-white rounded-lg border border-navy-100/50 overflow-hidden">
+                    <button class="faq-toggle w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
+                        <span class="font-medium text-navy-800 text-sm pr-4">Do you provide maternity and delivery services?</span>
+                        <span class="faq-icon text-navy-400 flex-shrink-0 text-xl leading-none">+</span>
+                    </button>
+                    <div class="faq-answer px-5 pb-5">
+                        <p class="text-navy-600 text-sm leading-relaxed">Yes, Priyam Hospital provides comprehensive maternity care including antenatal care, normal delivery, and caesarean delivery, along with infertility treatment and family planning services.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-white rounded-lg border border-navy-100/50 overflow-hidden">
+                    <button class="faq-toggle w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
+                        <span class="font-medium text-navy-800 text-sm pr-4">How can I contact Priyam Hospital?</span>
+                        <span class="faq-icon text-navy-400 flex-shrink-0 text-xl leading-none">+</span>
+                    </button>
+                    <div class="faq-answer px-5 pb-5">
+                        <p class="text-navy-600 text-sm leading-relaxed">You can reach us by phone at +91 98600 59838 or visit us at our Dabha, Nagpur location on Katol Bypass Road. You can also use the contact form or appointment form on this website.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="py-16 bg-navy-900 relative overflow-hidden">
+        <div class="absolute inset-0 pattern-dots opacity-5"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
+            <h2 class="font-manrope font-bold text-2xl md:text-3xl text-white mb-4">
+                Ready to Take the Next Step?
+            </h2>
+            <p class="text-navy-300 mb-8 max-w-xl mx-auto">
+                Whether you need an eye consultation or maternity care, we're here for you.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#appointment" class="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-navy-900 bg-teal-400 rounded-lg hover:bg-teal-300 transition-all shadow-lg">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                    Book Appointment
+                </a>
+                <a href="tel:+919860059838" class="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-white border-2 border-white/30 rounded-lg hover:border-white hover:bg-white/10 transition-all">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                    Call Now
+                </a>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Priyam+Hospital+Dabha+Nagpur+Katol+Bypass+Road" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-white border-2 border-white/30 rounded-lg hover:border-white hover:bg-white/10 transition-all">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-4.542a1 1 0 010-1.416L9 10m6 10l5.447-4.542a1 1 0 010-1.416L15 10m-6 20V4m6 16V4"/></svg>
+                    Get Directions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-900 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Brand -->
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-3 mb-5">
+                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-500 to-teal-700 flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.684l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <div>
+                            <span class="font-manrope font-bold text-white text-[15px] block">Priyam Hospital</span>
+                            <span class="text-teal-400 text-[11px] font-medium">Eye & Maternity Care</span>
+                        </div>
+                    </div>
+                    <p class="text-navy-300 text-sm leading-relaxed mb-5">
+                        Specialized eye care and maternity & women's healthcare in Dabha, Nagpur.
+                    </p>
+                    <a href="tel:+919860059838" class="inline-flex items-center gap-2 text-teal-400 text-sm font-medium hover:text-teal-300 transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                        +91 98600 59838
+                    </a>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-manrope font-semibold text-white text-sm mb-5">Quick Links</h3>
+                    <nav class="space-y-3">
+                        <a href="#home" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Home</a>
+                        <a href="#about" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">About Us</a>
+                        <a href="#specialities" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Specialities</a>
+                        <a href="#doctors" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Our Doctors</a>
+                        <a href="#appointment" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Book Appointment</a>
+                        <a href="#contact" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Contact</a>
+                    </nav>
+                </div>
+
+                <!-- Specialities -->
+                <div>
+                    <h3 class="font-manrope font-semibold text-white text-sm mb-5">Specialities</h3>
+                    <nav class="space-y-3">
+                        <a href="#specialities" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Advanced Eye Care</a>
+                        <a href="#specialities" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Maternity Care</a>
+                        <a href="#specialities" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Obstetrics & Gynaecology</a>
+                        <a href="#specialities" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Infertility Treatment</a>
+                        <a href="#specialities" class="block text-navy-300 text-sm hover:text-teal-400 transition-colors">Women's Healthcare</a>
+                    </nav>
+                </div>
+
+                <!-- Address & Map -->
+                <div>
+                    <h3 class="font-manrope font-semibold text-white text-sm mb-5">Location</h3>
+                    <p class="text-navy-300 text-sm leading-relaxed mb-4">
+                        Plot 1, Thakre Layout, Katol Bypass Road, near White House & Galaxy Hospital, Dabha, Nagpur, Maharashtra 440023
+                    </p>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Priyam+Hospital+Dabha+Nagpur+Katol+Bypass+Road" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-teal-400 text-sm font-medium hover:text-teal-300 transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-4.542a1 1 0 010-1.416L9 10m6 10l5.447-4.542a1 1 0 010-1.416L15 10m-6 20V4m6 16V4"/></svg>
+                        Open in Google Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="border-t border-navy-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-navy-400 text-xs">
+                    &copy; <span id="currentYear"></span> Priyam Hospital, Dabha, Nagpur. All rights reserved.
+                </p>
+                <div class="flex items-center gap-6">
+                    <a href="#" class="text-navy-400 text-xs hover:text-navy-200 transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-navy-400 text-xs hover:text-navy-200 transition-colors">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA (Mobile) -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-navy-100 shadow-[0_-4px_20px_rgba(16,42,67,0.08)] p-3 lg:hidden">
+        <div class="flex gap-2 max-w-lg mx-auto">
+            <a href="tel:+919860059838" class="flex-1 flex items-center justify-center gap-2 py-2.5 text-sm font-semibold text-teal-700 border border-teal-200 rounded-lg hover:bg-teal-50 transition-all">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.98.8l1.17 5.34a1 1 0 01-.24.99l-2.28 2.28a11.04 11.04 0 005.88 5.88l2.28-2.28a1 1 0 01.99-.24l5.34 1.17a1 1 0 01.8.98V19a2 2 0 01-2 2h-5C9.48 21 3 14.52 3 8V5z"/></svg>
+                Call
+            </a>
+            <a href="#appointment" class="flex-1 flex items-center justify-center gap-2 py-2.5 text-sm font-semibold text-white bg-navy-800 rounded-lg hover:bg-navy-900 transition-all">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                Book
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Priyam+Hospital+Dabha+Nagpur+Katol+Bypass+Road" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-2 py-2.5 text-sm font-semibold text-navy-700 border border-navy-200 rounded-lg hover:border-teal-300 transition-all">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-4.542a1 1 0 010-1.416L9 10m6 10l5.447-4.542a1 1 0 010-1.416L15 10m-6 20V4m6 16V4"/></svg>
+                Directions
+            </a>
+        </div>
+    </div>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Hospital",
+        "name": "Priyam Hospital",
+        "alternateName": "Priyam Eye & Maternity Hospital",
+        "url": "https://priyamhospital.com",
+        "telephone": "+919860059838",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Plot 1, Thakre Layout, Katol Bypass Road, near White House and Galaxy Hospital",
+            "addressLocality": "Dabha, Nagpur",
+            "addressRegion": "Maharashtra",
+            "postalCode": "440023",
+            "addressCountry": "IN"
+        },
+        "medicalSpecialty": ["Ophthalmology", "Obstetrics", "Gynecology"],
+        "areaServed": {
+            "@type": "City",
+            "name": "Nagpur"
+        }
+    }
+    </script>
+
+    <script>
+        // Current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Sticky header
+        const header = document.getElementById('header');
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 50) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+            lastScroll = currentScroll;
+        });
+
+        // Mobile menu
+        const menuBtn = document.getElementById('menuBtn');
+        const closeMenuBtn = document.getElementById('closeMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        function openMenu() {
+            mobileMenu.classList.add('open');
+            menuOverlay.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeMenu() {
+            mobileMenu.classList.remove('open');
+            menuOverlay.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
+        menuBtn.addEventListener('click', openMenu);
+        closeMenuBtn.addEventListener('click', closeMenu);
+        menuOverlay.addEventListener('click', closeMenu);
+        mobileLinks.forEach(link => link.addEventListener('click', closeMenu));
+
+        // Scroll reveal
+        const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+        const observerOptions = {
+            threshold: 0.15,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        revealElements.forEach(el => observer.observe(el));
+
+        // FAQ toggle
+        function toggleFaq(btn) {
+            const item = btn.closest('.faq-item');
+            const isActive = item.classList.contains('active');
+            // Close all
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+            // Open clicked if wasn't active
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        }
+
+        // Toast
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toastMessage');
+            toastMsg.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 4000);
+        }
+
+        // Appointment form
+        const form = document.getElementById('appointmentForm');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = form.querySelector('[name="name"]').value.trim();
+            const phone = form.querySelector('[name="phone"]').value.trim();
+            const dept = form.querySelector('[name="department"]').value;
+
+            if (!name || !phone || !dept) {
+                showToast('Please fill in all required fields.');
+                return;
+            }
+            showToast('Appointment request submitted! We will call you to confirm.');
+            form.reset();
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                const target = document.querySelector(href);
+                if (target) {
+                    e.preventDefault();
+                    const offset = 80;
+                    const pos = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top: pos, behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Set min date on date input
+        const dateInput = document.querySelector('input[type="date"]');
+        if (dateInput) {
+            const today = new Date().toISOString().split('T')[0];
+            dateInput.setAttribute('min', today);
+        }
+    </script>
+</body>
+</html>
